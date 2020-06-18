@@ -15,6 +15,8 @@
 		FD6D6BAE249BBC640089F6D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6D6BAC249BBC640089F6D2 /* LaunchScreen.storyboard */; };
 		FD6D6BB9249BBC650089F6D2 /* idoukirokukunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6D6BB8249BBC650089F6D2 /* idoukirokukunTests.swift */; };
 		FD6D6BC4249BBC650089F6D2 /* idoukirokukunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6D6BC3249BBC650089F6D2 /* idoukirokukunUITests.swift */; };
+		FD6D6BD2249BC2840089F6D2 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6D6BD1249BC2840089F6D2 /* StartViewController.swift */; };
+		FD6D6BD4249BC36E0089F6D2 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6D6BD3249BC36E0089F6D2 /* RecordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		FD6D6BBF249BBC650089F6D2 /* idoukirokukunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = idoukirokukunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD6D6BC3249BBC650089F6D2 /* idoukirokukunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idoukirokukunUITests.swift; sourceTree = "<group>"; };
 		FD6D6BC5249BBC650089F6D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD6D6BD1249BC2840089F6D2 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		FD6D6BD3249BC36E0089F6D2 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,13 @@
 			children = (
 				FD6D6BA1249BBC5D0089F6D2 /* AppDelegate.swift */,
 				FD6D6BA3249BBC5D0089F6D2 /* SceneDelegate.swift */,
-				FD6D6BA5249BBC5D0089F6D2 /* ViewController.swift */,
 				FD6D6BA7249BBC5D0089F6D2 /* Main.storyboard */,
 				FD6D6BAA249BBC640089F6D2 /* Assets.xcassets */,
 				FD6D6BAC249BBC640089F6D2 /* LaunchScreen.storyboard */,
 				FD6D6BAF249BBC640089F6D2 /* Info.plist */,
+				FD6D6BA5249BBC5D0089F6D2 /* ViewController.swift */,
+				FD6D6BD1249BC2840089F6D2 /* StartViewController.swift */,
+				FD6D6BD3249BC36E0089F6D2 /* RecordViewController.swift */,
 			);
 			path = idoukirokukun;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD6D6BA6249BBC5D0089F6D2 /* ViewController.swift in Sources */,
+				FD6D6BD2249BC2840089F6D2 /* StartViewController.swift in Sources */,
+				FD6D6BD4249BC36E0089F6D2 /* RecordViewController.swift in Sources */,
 				FD6D6BA2249BBC5D0089F6D2 /* AppDelegate.swift in Sources */,
 				FD6D6BA4249BBC5D0089F6D2 /* SceneDelegate.swift in Sources */,
 			);
