@@ -241,9 +241,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OAb-oX-j8N">
-                                <rect key="frame" x="16" y="59" width="74" height="34"/>
+                                <rect key="frame" x="16" y="59" width="37" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="ホームへ"/>
+                                <state key="normal" title="戻る"/>
                                 <connections>
                                     <segue destination="Zam-PJ-sr0" kind="unwind" unwindAction="backWithSender:" id="sCj-aW-0Ac"/>
                                 </connections>

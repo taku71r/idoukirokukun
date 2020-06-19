@@ -53,7 +53,7 @@ class RecordViewController: UIViewController, MKMapViewDelegate, CLLocationManag
     
    
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations:[CLLocation]) {
-        //決められた間隔ごとに現在地を取得
+        //決められた間隔ごとに現在地の座標を取得
         let coordinateNow = (locations.last?.coordinate)!
         
         //それぞれ配列に追加していく
@@ -61,10 +61,6 @@ class RecordViewController: UIViewController, MKMapViewDelegate, CLLocationManag
         
         //配列の現在の個数をarrayNumberで表す
         let arrayNumber = coordinateArray.count
-        
-        
-        print(coordinateArray)
-        
         
         //現在の座標データをcoordinate1に、一個前の座標データをcoordinate2にする
         if arrayNumber > 1 {
