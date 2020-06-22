@@ -45,8 +45,7 @@ class StartViewController: UIViewController, CLLocationManagerDelegate {
         
         
     }
-    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations:[CLLocation]) {
-    }
+    
     
     func initMap() {
         var region:MKCoordinateRegion = mapView.region
@@ -60,28 +59,33 @@ class StartViewController: UIViewController, CLLocationManagerDelegate {
         mapView.userTrackingMode = .follow
     }
     
-    @IBAction func back(sender: UIStoryboardSegue) {
-        
-    }
+    
     @IBAction func blueButtonTapped() {
         colorNumber = 0
         label.text = "選択中の色：青"
     }
+    
     @IBAction func redButtonTapped() {
         colorNumber = 1
         label.text = "選択中の色：赤"
     }
+    
     @IBAction func greenButtonTapped() {
         colorNumber = 2
         label.text = "選択中の色：緑"
     }
+    
     @IBAction func grayButtonTapped() {
         colorNumber = 3
         label.text = "選択中の色：グレー"
     }
+    
+    //セグエの実行
     @IBAction func startButtonTapped() {
         performSegueToRecord()
     }
+    
+    //セグエの実行と値渡しの中身
     func performSegueToRecord() {
         performSegue(withIdentifier: "toRecordView", sender: nil)
     }
@@ -90,6 +94,10 @@ class StartViewController: UIViewController, CLLocationManagerDelegate {
             let recordViewController = segue.destination as! RecordViewController
             recordViewController.colorNumber = self.colorNumber
         }
+    }
+    
+    @IBAction func back(sender: UIStoryboardSegue) {
+        
     }
 
 
